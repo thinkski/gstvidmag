@@ -1,0 +1,6 @@
+build.ninja
+config.h
+meson-logs/
+compile_commands.json
+meson-info/
+meson-private/
