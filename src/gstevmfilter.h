@@ -19,7 +19,14 @@ typedef struct _GstEVMFilter
 
   GstPad *sinkpad, *srcpad;
 
-  gboolean silent;
+  // spatial cutoff wavelength
+  gfloat cutoff;
+
+  // band-pass filter lower and upper bounds
+  gfloat wl, wh;
+
+  // amplification factor
+  gfloat gain;
 } GstEVMFilter;
 
 #define GST_EVMFILTER(obj) \
