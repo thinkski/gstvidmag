@@ -1,6 +1,6 @@
-# gstevmfilter
+# gstvidmag
 
-GStreamer filter plug-in for [Eulerian Video Magnification](http://people.csail.mit.edu/mrub/evm/) (EVM)
+GStreamer video magnification plug-in implementing [Eulerian Video Magnification](http://people.csail.mit.edu/mrub/evm/)
 
 ## Building
 
